@@ -8,8 +8,8 @@ AX8850 M.2 算力卡 HG4XH08G-H4JA DDR 适配配置，基于 AX650 SDK V3.16.0�
 
 | 仓库目录 | 对应 SDK 目录 | DDR 连接 | DDR_NUM | 当前速率 | OS 内存 | CMM 内存 |
 | --- | --- | --- | --- | --- | --- | --- |
-| `8GB/` | `AX650_SDK_V3.16.0_20260904151204` | 单颗，DDR0 | 1 | 3200 MT/s | 1152 MiB | 7040 MiB |
-| `16GB/` | `AX650_SDK_V3.16.0_20260901150323` | 双颗，DDR0 + DDR1 | 2 | 3200 MT/s | 1152 MiB | 15232 MiB |
+| `8GB/` | `[AX650_SDK_V3.16.0_20260904151204](https://huggingface.co/AXERA-TECH/AX650-Community-Hub/resolve/main/sdk/edge-computing-AX650_SDK_V3.16.0/02.SDK/AX650_SDK_V3.16.0_8G/AX650_SDK_V3.16.0_20260904151204.tgz?download=true)` | 单颗，DDR0 | 1 | 3200 MT/s | 1152 MiB | 7040 MiB |
+| `16GB/` | `[AX650_SDK_V3.16.0_20260901150323](https://huggingface.co/AXERA-TECH/AX650-Community-Hub/resolve/main/sdk/edge-computing-AX650_SDK_V3.16.0/02.SDK/AX650_SDK_V3.16.0_16G/AX650_SDK_V3.16.0_20260901150323.tgz?download=true)` | 双颗，DDR0 + DDR1 | 2 | 3200 MT/s | 1152 MiB | 15232 MiB |
 
 两套配置当前均使用 LPDDR4X、`curr_rank_num = 2`。这里记录的是 SDK 实际采用的配置值，原样保留源码，便于复现当前版本。
 
